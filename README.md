@@ -12,7 +12,7 @@ A simple tool to count the most common used words of the [telegram-history-dump]
 
 Examples
 ---------------
-Copy the result.json file in the same folder as the python script for easier user.
+Copy the result.json file in the same folder as the python script for easier use.
 
 Declare the variable f as filepath and the variable n as name
 
