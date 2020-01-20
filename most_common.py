@@ -4,7 +4,7 @@ import json
 import numpy as np
 from collections import Counter
 
-
+#declare variables
 start = time.time()
 string_array = np.array([])
 char_array = np.array([])
@@ -50,7 +50,7 @@ def main():
             if item["name"] == args.name:
             
                 for i in range(len(item["messages"])):
-            #print(item["messages"][i]["text"])
+
                     string_array = np.append(string_array , item["messages"][i]["text"])
         
 
@@ -58,6 +58,7 @@ def main():
     #split and append to word list
     for item in string_array:
         if isinstance(item, str):
+
             split_it = item.split()
             words.append(split_it)
 
@@ -75,10 +76,7 @@ def main():
     print(most_occur)
 
 
-    #print(d)
-    #print(args.name)
-
-
+    
 
 
 
