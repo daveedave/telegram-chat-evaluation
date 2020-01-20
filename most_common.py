@@ -71,7 +71,7 @@ def main():
     #calculate most common word
     go = [x.upper() for x in final_list]
     Counter = Counter(go) 
-    most_occur = Counter.most_common(10) #this number can be modfied. Right know only 10 most common words are displayed
+    most_occur = Counter.most_common(10) #this number can be modfied. Right now only 10 most common words are displayed
     print(most_occur)
 
 
